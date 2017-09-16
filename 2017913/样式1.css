@@ -1,0 +1,141 @@
+@charset "utf-8";
+.top
+{
+   position: absolute;
+   width:700px;
+   height: 180px;
+   border: 1px solid #4CAF50;;
+   top:200px;
+   left:200px;
+   float: right;
+}
+.center
+{
+    border: 1px solid red;
+    position: absolute;
+    width:700px;
+    top:400px;
+    left:200px;
+    text-align: center;
+}
+p#p1
+{
+    padding: 90px 0;
+}
+ul
+{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color:black;
+}
+li a
+{
+    display: block;
+    padding: 1em 3em;
+    text-align: center;
+    text-decoration:none;
+}
+li
+{
+    float:left;
+}
+a:link
+{
+    color: white;
+    background-color:black;
+}
+a:visited
+{
+    color: white;
+    background-color:black;
+}
+a:hover
+{
+    color: white;
+    background-color: gray;
+}
+a:active
+{
+    color: white;
+    background-color:#4CAF50;
+}
+.fix
+{
+    position:fixed;
+    right:30px;
+    top:60px;
+    color: red;
+    font-size: 30px;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    min-width: 150px;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropbtn{
+    background-color: green;
+    padding: 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.dropdown-content a{
+    display: block;
+    color: white;
+    background-color: red;
+    padding: 16px;
+    text-decoration: none;
+}
+.dropdown-content a:link,.dropdown-content a:visited{
+    background-color: black;
+}
+.dropdown-content a:hover{
+    background-color: gray;
+}
+.tool{
+    position: absolute;
+    top:300px;
+    left:300px;
+    width: 200px;
+    height: 200px;
+}
+.tooltip{
+    position: relative;
+    color: white;
+    background-color: gray;
+    padding: 10px 10px;
+    width: 100px;
+}
+.tooltiptext{
+    position: absolute;
+    visibility: hidden;
+    color: white;
+    background-color: black;
+    top: 100%;
+    margin-left: -5px;
+    padding: 5px 20px;
+}
+.tooltip:hover .tooltiptext{
+    visibility:visible;
+}
+.div image{
+    margin: 5px;
+    width: 180px;
+
+}
+.div image:hover{
+
+}
+.div text{
+    text-align: center;
+    color: black;
+    
+}

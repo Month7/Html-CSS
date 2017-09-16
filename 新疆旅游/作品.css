@@ -1,0 +1,307 @@
+@charset "utf-8";
+
+body
+{
+margin:0;
+padding:0;
+}
+ul
+{
+	list-style-type:none;
+}
+a
+{
+	text-decoration:none;
+	outline:none;
+}
+.background
+{
+	background-color:#00CCFF;
+}
+
+
+
+/* top */
+.top
+{
+	margin:auto;
+	height:217px;
+	width:960px;
+}
+.top img
+{
+	width:100%;
+	margin-bottom:-2.5px;
+}
+.top ul
+{
+	float:left;
+	width:100%;
+	padding:0;
+	margin:0;
+	text-align:center;
+	margin-bottom:2px;
+}
+.top a
+{
+	padding:8px 0px;
+	width:6em;
+	float:left;
+}
+.top li a:link,.top  a:visited
+{
+	color:#0033FF;
+	background-image:url(button1.jpg);
+}
+.top li a:hover
+{
+	background-image:url(button1_bg.jpg);
+	color:white;
+}
+
+
+/*  mian  */
+.main
+{
+	background-color:#00CCFF;
+	margin:3px auto auto;
+	width:960px;
+	height:748px;
+}
+/* main_left */
+.main_left
+{
+	background-color:#3399FF;
+	width:225px;
+	float:left;
+	border:3px white solid;
+	clear:right;
+	height:740px;
+}
+
+.main_left_weather
+{
+	background-image:url(weather.jpg);
+	background-repeat:no-repeat;
+	border-bottom:2px white solid;
+	padding:13.6px;
+	color:white;
+}
+.main_left_weather h3
+{
+	font-size:1.2em;
+	text-align:center;
+	margin:0px 0px 0px 70px;
+}
+.main_left_weather_place ul
+{
+	font-size:0.8em;
+	margin-left:-25px;
+	
+}
+.main_left_weather_place ul li
+{
+	background-image:url(icon1.gif);
+	background-position:0px 6px;
+	background-repeat:no-repeat;
+	padding-bottom:6px;
+}
+.main_left_weather_place ul li a
+{
+	padding-left:12px;
+}
+.main_left_weather_place ul  li  a:link,.main_left_weather_place ul  li  a:visited
+{
+	color:white;
+}
+.main_left_weather_place ul  li  a:hover
+{
+	color:#66FF00;
+}
+.main_left_recommend
+{
+	margin-top:-8px;
+}
+.main_left_recommend dl dt
+{
+	background-color:#CCFFFF;
+	line-height:23px;
+	
+}
+.main_left_recommend dl dt h3
+{
+	background-image:url(icon2.gif);
+	background-repeat:no-repeat;
+	background-position:8px 13px;
+	padding-top:3px;
+	padding-bottom:3px;
+}
+.main_left_recommend dl dt h3 strong
+{
+	color:blue;
+	padding-left:19px;
+}
+.main_left_recommend dl dd
+{
+	font-size:0.9em;
+	text-align:center;
+	margin:16px 20px 12px 21px;
+}
+.main_left_recommend dl dd a img
+{
+	border:1px white solid;
+}
+.main_left_recommend dl dd a:link, .main_left_recommend dl dd a:visited
+{
+	color:white;
+}
+.main_left_recommend dl dd a:hover
+{
+	color:#66FF00;
+}
+
+
+
+/* center */
+.main_center
+{
+	border:3px white solid;
+	float:left;
+	clear:right;
+	width:480px;
+	margin-left:3px;
+	background-color:white;
+	height:740px;
+}
+.main_center img
+{
+	width:100%;
+}
+.main_center dl dt img
+{
+	width:150px;
+}
+.main_center dl dd ul
+{
+	list-style:none;
+	margin-left:-76.5px;
+}
+.main_center dl dd ul li
+{
+	float:left;
+	clear:right;
+	padding-left:16px;
+}
+.main_center dl dd ul li a img
+{
+	width:97px;
+	border:1px #3399FF solid;
+	margin-bottom:10px;
+}
+dd.main_center_font
+{
+	background-image:url(icon1.gif);
+	background-repeat:no-repeat;
+	background-position:0px 6px;
+	font-size:0.84em;
+	padding-bottom:5px;
+}
+dd.main_center_font a
+{
+	padding-left:14px;
+}
+.main_center_font a:link, .main_center_font a:visited
+{
+	color:#0033FF;
+}
+.main_center_font a:hover
+{
+	color:red;
+}
+
+
+
+/* main_right */
+.main_right
+{
+	width:231px;
+	background-color:#3399FF;
+	height:740px;
+	float:left;
+	margin-left:3px;
+	clear:right;
+	border:3px white solid;
+}
+.main_right_landscape
+{
+	margin-top:-19px;
+}
+.main_right_landscape dl dt
+{
+	background-color:#CCFFFF;
+	line-height:29px;
+	color:blue;
+}
+.main_right_landscape dl dt h3
+{
+	background-image:url(icon2.gif);
+	background-repeat:no-repeat;
+	background-position:10px 14px;
+	padding-top:2px;
+}
+.main_right_landscape dl dt strong
+{
+	padding-left:21px;
+}
+.main_right_landscape dl dd
+{
+	margin-top:8px;
+}
+.main_right_landscape dl dd img
+{
+	border:1px white solid;
+}
+dd.main_right_snacks 
+{
+	background-image:url(icon1.gif);
+	background-repeat:no-repeat;
+	background-position:4px 7px;
+	font-size:0.9em;
+	margin-left:20px;
+	padding-bottom:3px;
+}
+dd.main_right_snacks a
+{
+	padding-left:14px;
+	border-bottom:1px white dashed;
+	padding-bottom:3px;
+}
+.main_right_snacks a:link, .main_right_snacks a:visited
+{
+	color:white;
+}
+.main_right_snacks a:hover
+{
+	color:#66FF00;
+}
+
+
+
+/* bottom */
+.bottom
+{
+	width:956px;
+	background-color:#3399FF;
+	height:28px;
+	border:3px white solid;
+	margin:auto;
+}
+.bottom p
+{
+	text-align:center;
+	margin-top:6px;
+}
+.bottom a:link, .bottom a:visited
+{	
+	color:white;
+}

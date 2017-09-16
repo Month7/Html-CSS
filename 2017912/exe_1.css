@@ -1,0 +1,87 @@
+@charset "utf-8";
+a
+{
+    text-decoration:none;
+    outline:none;
+    display:block;
+    width:60px;
+}
+ul
+{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+.top
+{
+    height: 100px;
+    width:1300px;
+}
+.top li
+{
+    float: left;
+}
+.top  a
+{
+    padding: 16px 0px;
+    width:13em;
+    float: left;
+}
+.top li a:visited,.top li a:link
+{
+    color: white;
+    background-image: url(button.jpg);
+}
+.top li a:hover
+{
+    color: white;
+    background-image: url(button2.png);
+}
+.postion
+{
+    position: absolute;
+    right: 40px;
+    top:100px;
+}
+.box
+{
+    border: 3px solid red;
+    padding: 100px ;
+    width:200px;
+    text-align: center;
+}
+.box2
+{
+    position: absolute;
+    top:116px;
+    left:430px;
+    border: 3px solid red;
+    padding: 100px ;
+    width:200px;
+    text-align: center;
+}
+p#p1
+{
+    position: relative;
+    color: green;
+}
+.exe1
+{
+
+    width: 100px;
+    height: 160px;
+}
+.exe1 a
+{
+    padding: 1em 7em;
+}
+.exe1 li a:link,.exe1 li a:visited
+{
+    color:white;
+    background-color: black;
+}
+.exe1 li a:hover
+{
+    color:white;
+    background-color:gray;
+}

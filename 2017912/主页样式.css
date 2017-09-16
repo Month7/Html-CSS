@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+.test1
+{
+ 
+    margin-left: 100px;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 30pt;
+    color: blue;
+}
+a:link
+{
+    color:black;
+}
+a:visited
+{
+    color: green;
+}
+a:hover
+{
+   color: red;
+}
+ul
+{
+    color: purple;
+}
+td
+{
+    text-align: right;
+}
+th
+{
+    background-color: green;
+}
+.box
+{
+    margin: 25px;
+    width: 300px;
+    border: 30px solid red;
+    padding: 40px;
+}
+.double
+{
+    border-style: double;
+    text-align: center;
+    outline-color: blue;
+    outline-style: outset;
+}
+p
+{
+    color: blue;
+    text-align: center;
+}
+.test2 p
+{
+    color:red;
+}
+li
+{
+    display: inline;
+}
+.study
+{
+    position: fixed;
+    top: 30px;
+    right: 30px;
+}
+.position
+{
+    position: relative;
+}
+.center
+{
+    margin: auto;
+    background-color: pink;
+    width:50%;
+    border: 3px solid yellow;
+}
+img
+{
+    display: block;
+    margin:  auto;
+}
+.right
+{
+    position:absolute;
+    right: 0px;
+}
+.center2
+{
+    padding: 200px 0;
+    border: 2px solid red;
+    color: black;
+    text-align: center;
+}
+p#p1
+{
+    color:green;
+    font-size: 20px;
+}

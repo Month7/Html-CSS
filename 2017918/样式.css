@@ -1,0 +1,20 @@
+@charset "utf-8";
+body{
+    margin-top:60px;
+}
+h1{
+    padding-top:75px;
+}
+.picture{
+    margin: auto;
+    height: 660px;
+    width: 1029px;
+    background-color: white;
+}
+.content{
+    padding-left: 90px;
+}
+.center{
+    margin:auto;
+    width: 660px;
+}

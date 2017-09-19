@@ -1,0 +1,96 @@
+@charset "utf-8";
+#div1{
+    width: 80px;
+    height: 80px;
+    background-color: green;
+}
+
+#panel,#div2
+{
+	padding:5px;
+	text-align:center;
+	background-color:#e5eecc;
+	border:solid 1px #c3c3c3;
+}
+#panel
+{
+	padding:50px;
+	display:none;
+}
+#div3{
+    width: 60px;
+    height: 60px;
+    background-color: green;
+    border: 3px solid red;
+    position:absolute;
+}
+.div4{
+    margin-top:20px;
+    border: 3px solid rebeccapurple;
+    height: 600px;
+    border-radius: 5px;
+}
+.div4 ul{
+    padding: 0;
+    margin: 0px;
+    display: block;
+    background-color: gray;
+    overflow: hidden;
+    list-style-type: none;
+}
+.div4 li{
+    float: left;
+    background-color: gray;
+}
+.div4 li a,.dropcontent a{
+    color: white;
+    background-color: gray;
+    padding: 15px 15px;
+    display: block;
+    text-decoration: none;
+}
+.div4 a:link,.div4 a:visited{
+    background-color: gray;
+}
+.div4 a:hover{
+    background-color: black;
+}
+.dropdown{
+    position: relative;
+    display: inline;
+    width: 300px;
+    height: 200px;
+}
+.dropcontent{
+    position: absolute;
+    display: none;
+    width: 300px;
+    height: 500px;
+}
+.dropdown:hover .dropcontent{
+    display: block;
+}
+.dropbtn{
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 100px;
+}
+.div5{
+    border: 3px solid red;
+    margin: 0;
+    height: 340px;
+}
+.box{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    margin: 100px;
+    box-shadow: 10px 10px 5px #888888;
+}
+.div6{
+    border: 3px solid black;
+  
+    height: 500px;
+    width: 900px;
+}
